@@ -7,7 +7,7 @@
     <SwitchPreference
         android:key="show_search_bar"
         android:title="@string/show_search_bar_title"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <com.android.launcher3.preference.DoubleNumberPickerPreference
         android:key="homescreen_grid"
@@ -26,6 +26,6 @@
         android:title="@string/icon_size_title"
         launcher:max="130"
         launcher:min="70"
-        launcher:defaultValue="100" />
+        launcher:defaultValue="95" />
 
 </PreferenceScreen>

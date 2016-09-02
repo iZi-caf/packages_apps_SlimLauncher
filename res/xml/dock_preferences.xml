@@ -16,6 +16,6 @@
         android:title="@string/icon_size_title"
         launcher:max="130"
         launcher:min="70"
-        launcher:defaultValue="100" />
+        launcher:defaultValue="95" />
 
 </PreferenceScreen>
