@@ -164,7 +164,9 @@
         <activity android:name=".CreateShortcut"
             android:label="@string/shortcut_picker_title"
             android:icon="@mipmap/ic_launcher_home"
-            android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar"
+            android:theme="@style/Settings"
+            android:process=":settings_process"
+            android:parentActivityName="com.android.SlimLauncher.Launcher"
             android:excludeFromRecents="true"
             android:configChanges="orientation|keyboardHidden|screenSize" >
             <intent-filter>
